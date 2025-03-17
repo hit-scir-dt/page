@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - TOIS</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publisher/tois/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publisher/tois/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Policy-driven Knowledge Selection and Response Generation for Document-grounded Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Stack-Propagation Framework for Low-Resource Personalized Dialogue Generation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-a-stack-propagation-framework-for-low-resource-personalized-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-a-stack-propagation-framework-for-low-resource-personalized-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-a-stack-propagation-framework-for-low-resource-personalized-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Static and Dynamic Attention Framework for Multi Turn Dialogue Generation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unstructured Text Enhanced Open-domain Dialogue System: A Systematic Survey</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/"></content>
+        
+    </entry>
+</feed>
