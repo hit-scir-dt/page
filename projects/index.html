@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://hit-scir-dt.github.io/page/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://hit-scir-dt.github.io/page/elasticlunr.min.js" defer></script>
+
+<script src="https://hit-scir-dt.github.io/page/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;>
+          <img src="https://hit-scir-dt.github.io/page/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;">首页</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/news">新闻</a> -->
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/projects">成果展示</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/publications">发表论文</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/resources">技术资源</a> -->
+	    <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      项目列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;zhi-neng-ren-ji-dui-hua-xi-tong-ben-ben&#x2F;">智能人机对话系统“笨笨”</a>
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        笨笨是由实验室DT组主导研发的一款面向普通用户的聊天机器人，主要提供一对一的聊天功能以及其他生活服务及问答功能，2016年6月6日正式对外发布，搭载于微信公众号平台之上，同时具备实体形态。2019年4月笨笨的开放域对话功能上线到科大讯飞AIUI平台，对外提供服务，上线至今，平均每月调用6千万次。笨笨对话系统及其相关应用曾获“合创杯”第二届全国青年人工智能创新创业大会三等奖、中国人工智能学会最佳青年技术成果奖、吴文俊人工智能科技进步奖二等奖，相关研究成果发表在ACL等国际顶级会议。
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;zhi-neng-ren-ji-dui-hua-xi-tong-ben-ben&#x2F;">智能人机对话系统“笨笨”</a>
+              
+            </h3>
+            笨笨是由实验室DT组主导研发的一款面向普通用户的聊天机器人，主要提供一对一的聊天功能以及其他生活服务及问答功能，2016年6月6日正式对外发布，搭载于微信公众号平台之上，同时具备实体形态。2019年4月笨笨的开放域对话功能上线到科大讯飞AIUI平台，对外提供服务，上线至今，平均每月调用6千万次。笨笨对话系统及其相关应用曾获“合创杯”第二届全国青年人工智能创新创业大会三等奖、中国人工智能学会最佳青年技术成果奖、吴文俊人工智能科技进步奖二等奖，相关研究成果发表在ACL等国际顶级会议。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;liao-tian-ji-qi-ren-ji-shu-kai-fang-ping-tai-ctp&#x2F;">聊天机器人技术开放平台-CTP</a>
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        聊天机器人技术开放平台（Chatbot Technology Platform，CTP）测试版是基于哈工大SCIR自主研发的笨笨机器人核心技术及框架开发，CTP测试版旨在开放我们已有的研究技术，希望能够最大化这些技术的利用价值，同时方便普通用户和开发者创建或者开发专属机器人。
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;liao-tian-ji-qi-ren-ji-shu-kai-fang-ping-tai-ctp&#x2F;">聊天机器人技术开放平台-CTP</a>
+              
+            </h3>
+            聊天机器人技术开放平台（Chatbot Technology Platform，CTP）测试版是基于哈工大SCIR自主研发的笨笨机器人核心技术及框架开发，CTP测试版旨在开放我们已有的研究技术，希望能够最大化这些技术的利用价值，同时方便普通用户和开发者创建或者开发专属机器人。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;da-yu-yan-mo-xing-huo-zi-2-0&#x2F;">大语言模型活字2.0</a>
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        活字系列是由哈工大自然语言处理研究所多位老师和学生参与开发的一个开源可商用的大规模预训练语言模型。活字2.0通过人类反馈的强化学习（RLHF）进一步优化了模型回复质量，使其更加符合人类偏好。相较于上一个版本平均长度明显提高，遵从指令的能力更强，逻辑更加清晰。
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;da-yu-yan-mo-xing-huo-zi-2-0&#x2F;">大语言模型活字2.0</a>
+              
+            </h3>
+            活字系列是由哈工大自然语言处理研究所多位老师和学生参与开发的一个开源可商用的大规模预训练语言模型。活字2.0通过人类反馈的强化学习（RLHF）进一步优化了模型回复质量，使其更加符合人类偏好。相较于上一个版本平均长度明显提高，遵从指令的能力更强，逻辑更加清晰。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;huo-zi-ri-xin&#x2F;">活字-日新</a>
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        基于我们提出的检索增强框架和活字2.0，检索多种外源知识并通过拒绝采样和奖励模型打分，赋予了活字检索并利用外源知识的能力，使活字在事实性和时效性问题上有稳定的提升。实现了基于检索增强的中英文多轮对话。
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;huo-zi-ri-xin&#x2F;">活字-日新</a>
+              
+            </h3>
+            基于我们提出的检索增强框架和活字2.0，检索多种外源知识并通过拒绝采样和奖励模型打分，赋予了活字检索并利用外源知识的能力，使活字在事实性和时效性问题上有稳定的提升。实现了基于检索增强的中英文多轮对话。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;ju-shen-zhi-neng&#x2F;">具身智能</a>
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        具身智能是一种基于物理身体进行感知和行动的智能系统，其通过智能体与环境的交互获取信息、理解问题、做出决策并实现行动，从而产生智能行为和适应性。与非具身的人工智能相比，具身的人工智能具有主动性和交互性。
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;ju-shen-zhi-neng&#x2F;">具身智能</a>
+              
+            </h3>
+            具身智能是一种基于物理身体进行感知和行动的智能系统，其通过智能体与环境的交互获取信息、理解问题、做出决策并实现行动，从而产生智能行为和适应性。与非具身的人工智能相比，具身的人工智能具有主动性和交互性。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;she-jiao-mei-ti-duo-zhi-neng-ti-xiang-guan-cheng-guo&#x2F;">社交媒体多智能体相关成果</a>
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        预训练语言模型具有强大的语言理解和生成能力，然而在特定场景的应用中仍需要进一步调整模型的行为以适配具体需求。我们探索如何利用大模型面向特定场景进行主题可控和角色化的内容生成。综合使用多种前沿的大模型相关技术，我们训练和部署的模型能够针对特定话题，以符合特定角色属性的风格进行观点生成和对话式的生成。
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;projects&#x2F;she-jiao-mei-ti-duo-zhi-neng-ti-xiang-guan-cheng-guo&#x2F;">社交媒体多智能体相关成果</a>
+              
+            </h3>
+            预训练语言模型具有强大的语言理解和生成能力，然而在特定场景的应用中仍需要进一步调整模型的行为以适配具体需求。我们探索如何利用大模型面向特定场景进行主题可控和角色化的内容生成。综合使用多种前沿的大模型相关技术，我们训练和部署的模型能够针对特定话题，以符合特定角色属性的风格进行观点生成和对话式的生成。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>
