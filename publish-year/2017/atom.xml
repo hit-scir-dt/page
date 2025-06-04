@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2017</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publish-year/2017/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2017-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publish-year/2017/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Deep Neural Network for Chinese Zero Pronoun Resolution</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-a-deep-neural-network-for-chinese-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-a-deep-neural-network-for-chinese-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-a-deep-neural-network-for-chinese-zero-pronoun-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Benben: A Chinese Intelligent Conversational Robot</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Zero Pronoun Resolution with Deep Memory Network</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural Recovery Machine for Chinese Dropped Pronoun</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/"></content>
+        
+    </entry>
+</feed>
