@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://hit-scir-dt.github.io/page/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://hit-scir-dt.github.io/page/elasticlunr.min.js" defer></script>
+
+<script src="https://hit-scir-dt.github.io/page/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;>
+          <img src="https://hit-scir-dt.github.io/page/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;">首页</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/news">新闻</a> -->
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/projects">成果展示</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/publications">发表论文</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/resources">技术资源</a> -->
+	    <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    <div class="content">
+      <h2 id="ji-shu-jian-jie">技术简介</h2>
+<p>预训练语言模型具有强大的语言理解和生成能力，然而在特定场景的应用中仍需要进一步调整模型的行为以适配具体需求。我们探索如何利用大模型面向特定场景进行主题可控和角色化的内容生成。综合使用多种前沿的大模型相关技术，我们训练和部署的模型能够针对特定话题，以符合特定角色属性的风格进行观点生成和对话式的生成。</p>
+<h2 id="guan-jian-ji-shu">关键技术</h2>
+<p>指令微调、克服灾难性遗忘、上下文学习、检索增强</p>
+<h2 id="ji-shu-xiao-guo">技术效果</h2>
+<h3 id="zhu-ti-ke-kong-sheng-cheng">主题可控生成</h3>
+<p>利用微博语料构造发帖任务的指令数据，采用高效微调的方式训练发帖模型</p>
+<p>采用检索增强的方式实时获取主题相关信息，辅助生成强时效性，内容丰富的文本</p>
+<center><img src = "../社交媒体多智能体-主题可控生成.png", style = "zoom:30%"> </center>
+<h3 id="jiao-se-hua-dui-hua">角色化对话</h3>
+<p>利用特定角色的大量对话数据，结合背景知识等信息，进行角色化对话模型训练</p>
+<p>以独立模块微调单个角色，通过动态加载方式，在低资源下实现多角色实时调度</p>
+<center> <img src = "../社交媒体多智能体-角色化对话.png", style = "zoom:30%"> </center>
+
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

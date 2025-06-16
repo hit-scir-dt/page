@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://hit-scir-dt.github.io/page/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://hit-scir-dt.github.io/page/elasticlunr.min.js" defer></script>
+
+<script src="https://hit-scir-dt.github.io/page/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;>
+          <img src="https://hit-scir-dt.github.io/page/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;">首页</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/news">新闻</a> -->
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/projects">成果展示</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/publications">发表论文</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/resources">技术资源</a> -->
+	    <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    <div class="content">
+      <h2 id="ben-ben">笨笨</h2>
+<p>笨笨是由实验室DT组主导研发的一款面向普通用户的聊天机器人，主要提供一对一的聊天功能以及其他生活服务及问答功能，2016年6月6日正式对外发布，搭载于微信公众号平台之上，同时具备实体形态。2019年4月笨笨的开放域对话功能上线到科大讯飞AIUI平台，对外提供服务，上线至今，平均每月调用6千万次。笨笨对话系统及其相关应用曾获“合创杯”第二届全国青年人工智能创新创业大会三等奖、中国人工智能学会最佳青年技术成果奖、吴文俊人工智能科技进步奖二等奖，相关研究成果发表在ACL等国际顶级会议。</p>
+<h2 id="xiang-guan-zi-liao">相关资料</h2>
+<ul>
+<li><a href="https://mp.weixin.qq.com/s/ObiLJ9vxzwkfe3p620buUg">微信公众号文章 | 笨笨，来自赛尔的聊天机器人</a></li>
+<li><a href="https://mp.weixin.qq.com/s/PyCEvIfhFn5cN0nWjW9kJw">微信公众号文章 | 哈工大“笨笨”机器人演示</a></li>
+<li><a href="https://aclanthology.org/P17-4003.pdf">ACL 2017 | 哈工大：笨笨：一个中文智能聊天机器人</a></li>
+</ul>
+<p>截至2020年5月29日，关注人数达到6062</p>
+<p><strong>扫描微信版二维码（下侧）关注笨笨，与笨笨一同成长</strong></p>
+<center><img src = "../笨笨二维码.png", style = "zoom:50%"></center>
+<h2 id="ben-ben-jia-gou">笨笨架构</h2>
+<center><img src="../笨笨整体架构.png" alt="笨笨架构" style="zoom:80%;" /></center>
+<h2 id="ben-ben-mu-qian-ju-bei-de-gong-neng">笨笨目前具备的功能</h2>
+<h3 id="xian-liao">闲聊</h3>
+<p>基于检索技术和回复生成技术，跟用户进行单轮无目的的闲聊。</p>
+<h3 id="shu-xing-hui-fu">属性回复</h3>
+<p>回复用户关于机器人姓名、年龄、性别等属性方便的问题。</p>
+<h3 id="yin-shi-tui-jian">饮食推荐</h3>
+<p>为用户推荐地方特色小吃等。</p>
+<h3 id="zhi-dai-xiao-jie">指代消解</h3>
+<p>在聊天过程中，对于本轮中使用的代词根据上一轮输入中的实体进行消解。</p>
+<h3 id="shi-ti-cha-xun">实体查询</h3>
+<p>如果用户输入是以“你知道XXX吗”之类的问题，会返回查询到的相关知识。</p>
+<h3 id="qing-gan-hui-fu">情感回复</h3>
+<p>对用户的情感进行抚慰。</p>
+<h3 id="zhi-ling-zhi-xing">指令执行</h3>
+<p>协助用户完成“订机票”、“订火车票”和“查询公交”任务。</p>
+<h3 id="zhi-shi-wen-da">知识问答</h3>
+<p>用户可以对一些常识进行提问，笨笨会返回相应问题的答案。</p>
+<h3 id="xin-wen-tui-jian">新闻推荐</h3>
+<p>用户输入新闻推荐，笨笨首先询问用户想要看新闻的类别。再用户返回之后，为用户推荐对应类别下的新闻。同时，用户可以不断再来一条持续看，或者切换新闻的类别。</p>
+<h3 id="gu-wen-hui-fu">古文回复</h3>
+<p>触发词“笨笨古文”。在古文回复功能中，笨笨会采用古文回答用户的输入。</p>
+<h3 id="ben-ben-gu-shi">笨笨古诗</h3>
+<p>触发词“笨笨古诗”。“笨笨”对作诗很感兴趣，背了很多首古诗。现在的“笨笨”可是一个大诗人，能陪您玩诗词成语、诗词九宫格、古诗词补全、诗词飞花令、诗词接龙等五个游戏。</p>
+<h3 id="cai-mi-yu">猜谜语</h3>
+<p>触发词“猜谜语”。中国的谜语文化源远流长，距今已经有三千多年的历史了。经过历代发展，又形成了灯谜、字谜、动物谜语等。谜语是一项饶有趣味的文字游戏，往往需要一定的想象力才能分析推理出谜底。现在的笨笨能够陪您玩猜谜游戏了！</p>
+<h3 id="cheng-yu-jie-long">成语接龙</h3>
+<p>触发词“成语接龙”。笨笨最近对成语很感兴趣，在假期偷偷学会了三万多个成语，现在的笨笨能够陪您玩【成语接龙】游戏了。</p>
+<h3 id="ben-ben-liao-xiao-shuo">笨笨聊小说</h3>
+<p>触发词“笨笨聊小说”。用户可以指定用户扮演小说中的一个角色。笨笨会根据角色的信息回答用户的问题。</p>
+<h3 id="nao-jin-ji-zhuan-wan">脑筋急转弯</h3>
+<p>触发词“脑筋急转弯”。笨笨可以和用户进行脑筋急转弯的游戏。用户回答不了时，可以请求提示。</p>
+
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>
