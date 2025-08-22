@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - EMNLP</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publisher/emnlp/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-21T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publisher/emnlp/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Nullspace Disentanglement for Red Teaming Language Models</title>
+        <published>2025-08-21T00:00:00+00:00</published>
+        <updated>2025-08-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/nullspace-disentanglement-for-red-teaming-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/nullspace-disentanglement-for-red-teaming-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/nullspace-disentanglement-for-red-teaming-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Stimulate the Critical Thinking of LLMs via Debiasing Discussion</title>
+        <published>2025-08-21T00:00:00+00:00</published>
+        <updated>2025-08-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/stimulate-the-critical-thinking-of-llms-via-debiasing-discussion/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/stimulate-the-critical-thinking-of-llms-via-debiasing-discussion/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/stimulate-the-critical-thinking-of-llms-via-debiasing-discussion/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Prove Your Point!: Bringing Proof-Enhancement Principles to Argumentative Essay Generation</title>
+        <published>2024-09-19T00:00:00+00:00</published>
+        <updated>2024-09-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2024-prove-your-point-bringing-proof-enhancement-principles-to-argumentative-essay-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2024-prove-your-point-bringing-proof-enhancement-principles-to-argumentative-essay-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2024-prove-your-point-bringing-proof-enhancement-principles-to-argumentative-essay-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Counterfactual Off-Policy Training for Neural Dialogue Generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Proﬁle Consistency Identiﬁcation for Open-domain Dialogue Agents</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-profile-consistency-identification-for-open-domain-dialogue-agents/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-profile-consistency-identification-for-open-domain-dialogue-agents/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-profile-consistency-identification-for-open-domain-dialogue-agents/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Zero Pronoun Resolution with Deep Memory Network</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/"></content>
+        
+    </entry>
+</feed>
