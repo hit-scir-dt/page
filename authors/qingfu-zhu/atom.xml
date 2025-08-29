@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Qingfu Zhu</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/authors/qingfu-zhu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/authors/qingfu-zhu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Static and Dynamic Attention Framework for Multi Turn Dialogue Generation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural Stylistic Response Generation with Disentangled Latent Variables</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Counterfactual Off-Policy Training for Neural Dialogue Generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Order-Sensitive Keywords Based Response Generation in Open-Domain Conversational Systems</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Retrieval-Enhanced Adversarial Training for Neural Response Generation</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Context-Sensitive Generation of Open-Domain Conversational Responses</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural personalized response generation as domain adaptation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/"></content>
+        
+    </entry>
+</feed>

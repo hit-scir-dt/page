@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Findings of EMNLP</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publisher/findings-of-emnlp/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publisher/findings-of-emnlp/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Conversational Recommender System and Large Language Model Are Made for Each Other in E-commerce Pre-sales Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Compare Aggregate Transformer for Understanding Document-grounded Dialogue</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-a-compare-aggregate-transformer-for-understanding-document-grounded-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-a-compare-aggregate-transformer-for-understanding-document-grounded-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-a-compare-aggregate-transformer-for-understanding-document-grounded-dialogue/"></content>
+        
+    </entry>
+</feed>

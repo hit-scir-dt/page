@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - ACL</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publisher/acl/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publisher/acl/atom.xml</id>
+    <entry xml:lang="en">
+        <title>CLIP Models are Few-Shot Learners: Empirical Studies on VQA and Visual Entailment</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-clip-models-are-few-shot-learners-empirical-studies-on-vqa-and-visual-entailment/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-clip-models-are-few-shot-learners-empirical-studies-on-vqa-and-visual-entailment/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-clip-models-are-few-shot-learners-empirical-studies-on-vqa-and-visual-entailment/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BoB: BERT Over BERT for Training Persona-based Dialogue Models from Limited Personalized Data</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-bob-bert-over-bert-for-training-persona-based-dialogue-models-from-limited-personalized-data/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-bob-bert-over-bert-for-training-persona-based-dialogue-models-from-limited-personalized-data/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-bob-bert-over-bert-for-training-persona-based-dialogue-models-from-limited-personalized-data/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural Stylistic Response Generation with Disentangled Latent Variables</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-generate-delete-and-rewrite-a-three-stage-framework-for-improving-persona-consistency-of-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-generate-delete-and-rewrite-a-three-stage-framework-for-improving-persona-consistency-of-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-generate-delete-and-rewrite-a-three-stage-framework-for-improving-persona-consistency-of-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Retrieval-Enhanced Adversarial Training for Neural Response Generation</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep Reinforcement Learning for Chinese Zero Pronoun Resolution</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Benben: A Chinese Intelligent Conversational Robot</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/"></content>
+        
+    </entry>
+</feed>
