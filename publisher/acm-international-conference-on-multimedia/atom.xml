@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - ACM International Conference on Multimedia</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publisher/acm-international-conference-on-multimedia/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-27T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publisher/acm-international-conference-on-multimedia/atom.xml</id>
+    <entry xml:lang="en">
+        <title>LLaPa: A Vision-Language Model Framework for Counterfactual-Aware Procedural Planning</title>
+        <published>2025-10-27T00:00:00+00:00</published>
+        <updated>2025-10-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-llapa-a-vision-language-model-framework-for-counterfactual-aware-procedural-planning-copy/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-llapa-a-vision-language-model-framework-for-counterfactual-aware-procedural-planning-copy/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-llapa-a-vision-language-model-framework-for-counterfactual-aware-procedural-planning-copy/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PRISM: A Benchmark for Unveiling Cross-model Knowledge Inconsistency in Large Vision-Language Models</title>
+        <published>2025-10-27T00:00:00+00:00</published>
+        <updated>2025-10-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-prism-a-benchmark-for-unveiling-cross-model-knowledge-inconsistency-in-large-vision-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-prism-a-benchmark-for-unveiling-cross-model-knowledge-inconsistency-in-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-prism-a-benchmark-for-unveiling-cross-model-knowledge-inconsistency-in-large-vision-language-models/"></content>
+        
+    </entry>
+</feed>

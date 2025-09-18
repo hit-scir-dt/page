@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Xiang Tian</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/authors/xiang-tian/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-12T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/authors/xiang-tian/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Survey on Embodied AI: Achieving Robot’s Intelligent Behavior with AI Technology</title>
+        <published>2025-09-12T00:00:00+00:00</published>
+        <updated>2025-09-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-a-survey-on-embodied-ai-achieving-robot-s-intelligent-behavior-with-ai-technology/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-a-survey-on-embodied-ai-achieving-robot-s-intelligent-behavior-with-ai-technology/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-a-survey-on-embodied-ai-achieving-robot-s-intelligent-behavior-with-ai-technology/"></content>
+        
+    </entry>
+</feed>

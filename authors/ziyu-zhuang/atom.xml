@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Ziyu Zhuang</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/authors/ziyu-zhuang/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/authors/ziyu-zhuang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Through the Lens of Core Competency: Survey on Evaluation of Large Language Models</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>U-NEED: A Fine-grained Dataset for User Needs-Centric E-commerce Conversational Recommendation</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SelF- Eval: Self-supervised Fine- grained Dialogue Evaluation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/"></content>
+        
+    </entry>
+</feed>

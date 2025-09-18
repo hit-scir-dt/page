@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2023</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publish-year/2023/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publish-year/2023/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Conversational Recommender System and Large Language Model Are Made for Each Other in E-commerce Pre-sales Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I run as fast as a rabbit, can you? A Multilingual Simile Dialogues Datasets</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-i-run-as-fast-as-a-rabbit-can-you-a-multilingual-simile-dialogues-datasets/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-i-run-as-fast-as-a-rabbit-can-you-a-multilingual-simile-dialogues-datasets/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-i-run-as-fast-as-a-rabbit-can-you-a-multilingual-simile-dialogues-datasets/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving Robustness of Intent Detection Under Adversarial Attacks: A Geometric Constraint Perspective</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MetricPrompt: Prompting Model as a Relevance Metric for Few-shot Text Classification</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Policy-driven Knowledge Selection and Response Generation for Document-grounded Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Through the Lens of Core Competency: Survey on Evaluation of Large Language Models</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>U-NEED: A Fine-grained Dataset for User Needs-Centric E-commerce Conversational Recommendation</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/"></content>
+        
+    </entry>
+</feed>

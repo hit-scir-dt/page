@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Mingda Li</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/authors/mingda-li/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/authors/mingda-li/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Unraveling and Mitigating Retriever Inconsistencies in Retrieval-Augmented Large Language Models </title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2024-unraveling-and-mitigting-retriever-inconsistencies-in-retrieval-augmented-large-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2024-unraveling-and-mitigting-retriever-inconsistencies-in-retrieval-augmented-large-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2024-unraveling-and-mitigting-retriever-inconsistencies-in-retrieval-augmented-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Policy-driven Knowledge Selection and Response Generation for Document-grounded Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Through the Lens of Core Competency: Survey on Evaluation of Large Language Models</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SelF- Eval: Self-supervised Fine- grained Dialogue Evaluation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unstructured Text Enhanced Open-domain Dialogue System: A Systematic Survey</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/"></content>
+        
+    </entry>
+</feed>

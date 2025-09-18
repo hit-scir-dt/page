@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Jianxing Liu</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/authors/jianxing-liu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/authors/jianxing-liu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Improving Robustness of Intent Detection Under Adversarial Attacks: A Geometric Constraint Perspective</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/"></content>
+        
+    </entry>
+</feed>

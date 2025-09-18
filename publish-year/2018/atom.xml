@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2018</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publish-year/2018/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2018-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publish-year/2018/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Context-Sensitive Generation of Open-Domain Conversational Responses</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep Reinforcement Learning for Chinese Zero Pronoun Resolution</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring Implicit Feedback for Open Domain Conversation Generation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-exploring-implicit-feedback-for-open-domain-conversation-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-exploring-implicit-feedback-for-open-domain-conversation-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-exploring-implicit-feedback-for-open-domain-conversation-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural personalized response generation as domain adaptation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Zero Pronoun Resolution with Attention-based Neural Network</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-zero-pronoun-resolution-with-attention-based-neural-network/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-zero-pronoun-resolution-with-attention-based-neural-network/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-zero-pronoun-resolution-with-attention-based-neural-network/"></content>
+        
+    </entry>
+</feed>

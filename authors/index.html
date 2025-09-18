@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://hit-scir-dt.github.io/page/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://hit-scir-dt.github.io/page/elasticlunr.min.js" defer></script>
+
+<script src="https://hit-scir-dt.github.io/page/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;>
+          <img src="https://hit-scir-dt.github.io/page/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;">首页</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/news">新闻</a> -->
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/projects">成果展示</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/publications">发表论文</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/resources">技术资源</a> -->
+	    <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+<div class="container">
+  <div class="is-flex is-flex-direction-column is-justify-content-center">
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title">
+          
+作者
+
+        </p>
+      </div>
+      
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/baohua-dong/">Baohua Dong</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/bing-qin/">Bing Qin</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/biqing-qi/">Biqing Qi</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/bowen-zhou/">Bowen Zhou</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/caihai-zhu/">Caihai Zhu</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/changxin-ke/">Changxin Ke</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/chen-wei/">Chen Wei</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/chen-yifan/">Chen Yifan</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/chuanxi-duan/">Chuanxi Duan</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/churui-sun/">Churui Sun</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/dawei-yin/">Dawei Yin</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/dong-wang/">Dong Wang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/donglin-di/">Donglin Di</a> (5)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/dongyan-cao/">Dongyan Cao</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/fan-feng/">Fan Feng</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/fanglin-wang/">Fanglin Wang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/furu-wei/">Furu Wei</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/guoping-hu/">Guoping Hu</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/hang-wang/">Hang Wang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/hanlin-tang/">Hanlin Tang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/hao-song/">Hao Song</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/haopeng-bai/">Haopeng Bai</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/haoyu-song/">Haoyu Song</a> (7)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/hengbin-cui/">Hengbin Cui</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/hongyuan-dong/">Hongyuan Dong</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/jiahuan-pei/">Jiahuan Pei</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/jianing-yu/">Jianing Yu</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/jianxing-liu/">Jianxing Liu</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/jiapeng-li/">Jiapeng Li</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/jing-jiang/">Jing Jiang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/jingwen-hu/">Jingwen Hu</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/jizhe-wang/">Jizhe Wang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/kaifeng-liu/">Kaifeng Liu</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/kaiyan-zhang/">Kaiyan Zhang</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/le-qi/">Le Qi</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/lei-cui/">Lei Cui</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/lei-ren/">Lei Ren</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/lei-wu/">Lei Wu</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/li-dong/">Li Dong</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/lianqiang-zhou/">Lianqiang Zhou</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/ligang-wu/">Ligang Wu</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/lingzhi-li/">Lingzhi Li</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/longxuan-ma/">Longxuan Ma</a> (9)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/ma/">Ma</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/maarten-de-rijke/">Maarten de Rijke</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/ming-li/">Ming Li</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/mingda-li/">Mingda Li</a> (5)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/mingjie-wei/">Mingjie Wei</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/nan-shao/">Nan Shao</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/qiguang-chen/">Qiguang Chen</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/qingfu-zhu/">Qingfu Zhu</a> (7)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/qingyu-yin/">Qingyu Yin</a> (7)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/ruiyu-xiao/">Ruiyu Xiao</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/runxin-sun/">Runxin Sun</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/shijin-wang/">Shijin Wang</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/shijinwang/">ShijinWang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/shiqi-liang/">Shiqi Liang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/shuhan-zhou/">Shuhan Zhou</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/su-he/">Su He</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/sun-run-xin-ma-long-xuan-zhang-wei-nan-liu-ting/">孙润鑫，马龙轩，张伟男，刘挺</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/ting-liu/">Ting Liu</a> (44)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/tingliu/">TingLiu</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/wanxiang-che/">Wanxiang Che</a> (8)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/wanxiangche/">WanxiangChe</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/weinan-zhang/">Weinan Zhang</a> (52)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/weinanzhang/">WeinanZhang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/wenfeng-xuan/">Wenfeng Xuan</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/wentao/">Wentao</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/william-wang/">William Wang</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/william-yang-wang/">William Yang Wang</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/xiang-tian/">Xiang Tian</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/xianyang-song/">Xianyang Song</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/xiao-ding/">Xiao Ding</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/xiaojiang-liu/">Xiaojiang Liu</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/xinyu-li/">Xinyu Li</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/xuesong-wang/">Xuesong Wang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yan-fan/">Yan Fan</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yan-wang/">Yan Wang</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yang-li/">Yang Li</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yanyan-zhao/">Yanyan Zhao</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yi-han/">Yi Han</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yibo-zhang/">Yibo Zhang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yifa-wang/">Yifa Wang</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yifan-chen/">Yifan Chen</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yiming-cui/">Yiming Cui</a> (7)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yimingcui/">YimingCui</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yongbin-li/">Yongbin Li</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yu-zhang/">Yu Zhang</a> (7)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yuanxing-liu/">Yuanxing Liu</a> (9)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yuchi-zhang/">Yuchi Zhang</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yue-zhang/">Yue Zhang</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yuhang-gou/">Yuhang Gou</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/yushan-qian/">Yushan Qian</a> (2)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/zhaochun-ren/">Zhaochun Ren</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/zhengyu-zhao/">Zhengyu Zhao</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/zhigang-chen/">Zhigang Chen</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/zhigangchen/">ZhigangChen</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/zijian-hong/">Zijian Hong</a> (1)
+          </p>
+        </header>
+      </div>
+      
+      <div class="card mb-5">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://hit-scir-dt.github.io/page/authors/ziyu-zhuang/">Ziyu Zhuang</a> (3)
+          </p>
+        </header>
+      </div>
+      
+      
+    </section>
+  </div>
+</div>
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

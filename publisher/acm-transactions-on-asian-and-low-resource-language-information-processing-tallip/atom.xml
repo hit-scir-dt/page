@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publisher/acm-transactions-on-asian-and-low-resource-language-information-processing-tallip/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publisher/acm-transactions-on-asian-and-low-resource-language-information-processing-tallip/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Building Dialogue Understanding Models for Low-resource Language Indonesian from Scratch</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-building-dialogue-understanding-models-for-low-resource-language-indonesian-from-scratch/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-building-dialogue-understanding-models-for-low-resource-language-indonesian-from-scratch/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-building-dialogue-understanding-models-for-low-resource-language-indonesian-from-scratch/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Zero Pronoun Resolution: A Collaborative Filtering-based Approach</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-chinese-zero-pronoun-resolution-a-collaborative-filtering-based-approach/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-chinese-zero-pronoun-resolution-a-collaborative-filtering-based-approach/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-chinese-zero-pronoun-resolution-a-collaborative-filtering-based-approach/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Order-Sensitive Keywords Based Response Generation in Open-Domain Conversational Systems</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/"></content>
+        
+    </entry>
+</feed>

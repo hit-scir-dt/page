@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Weinan Zhang</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/authors/weinan-zhang/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-27T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/authors/weinan-zhang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>LLaPa: A Vision-Language Model Framework for Counterfactual-Aware Procedural Planning</title>
+        <published>2025-10-27T00:00:00+00:00</published>
+        <updated>2025-10-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-llapa-a-vision-language-model-framework-for-counterfactual-aware-procedural-planning-copy/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-llapa-a-vision-language-model-framework-for-counterfactual-aware-procedural-planning-copy/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-llapa-a-vision-language-model-framework-for-counterfactual-aware-procedural-planning-copy/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PRISM: A Benchmark for Unveiling Cross-model Knowledge Inconsistency in Large Vision-Language Models</title>
+        <published>2025-10-27T00:00:00+00:00</published>
+        <updated>2025-10-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-prism-a-benchmark-for-unveiling-cross-model-knowledge-inconsistency-in-large-vision-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-prism-a-benchmark-for-unveiling-cross-model-knowledge-inconsistency-in-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-prism-a-benchmark-for-unveiling-cross-model-knowledge-inconsistency-in-large-vision-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Survey on Embodied AI: Achieving Robot’s Intelligent Behavior with AI Technology</title>
+        <published>2025-09-12T00:00:00+00:00</published>
+        <updated>2025-09-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-a-survey-on-embodied-ai-achieving-robot-s-intelligent-behavior-with-ai-technology/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-a-survey-on-embodied-ai-achieving-robot-s-intelligent-behavior-with-ai-technology/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-a-survey-on-embodied-ai-achieving-robot-s-intelligent-behavior-with-ai-technology/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nullspace Disentanglement for Red Teaming Language Models</title>
+        <published>2025-08-21T00:00:00+00:00</published>
+        <updated>2025-08-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/nullspace-disentanglement-for-red-teaming-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/nullspace-disentanglement-for-red-teaming-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/nullspace-disentanglement-for-red-teaming-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Stimulate the Critical Thinking of LLMs via Debiasing Discussion</title>
+        <published>2025-08-21T00:00:00+00:00</published>
+        <updated>2025-08-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/stimulate-the-critical-thinking-of-llms-via-debiasing-discussion/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/stimulate-the-critical-thinking-of-llms-via-debiasing-discussion/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/stimulate-the-critical-thinking-of-llms-via-debiasing-discussion/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pragmatic inference and mapping for conversational implicature</title>
+        <published>2025-07-09T00:00:00+00:00</published>
+        <updated>2025-07-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-pragmatic-inference-and-mapping-for-conversational-implicature/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-pragmatic-inference-and-mapping-for-conversational-implicature/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-pragmatic-inference-and-mapping-for-conversational-implicature/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Augmentation with Neighboring Information for Conversational Recommendation</title>
+        <published>2025-02-27T00:00:00+00:00</published>
+        <updated>2025-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2025-augmentation-with-neighboring-information-for-conversational-recommendation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2025-augmentation-with-neighboring-information-for-conversational-recommendation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2025-augmentation-with-neighboring-information-for-conversational-recommendation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Prove Your Point!: Bringing Proof-Enhancement Principles to Argumentative Essay Generation</title>
+        <published>2024-09-19T00:00:00+00:00</published>
+        <updated>2024-09-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2024-prove-your-point-bringing-proof-enhancement-principles-to-argumentative-essay-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2024-prove-your-point-bringing-proof-enhancement-principles-to-argumentative-essay-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2024-prove-your-point-bringing-proof-enhancement-principles-to-argumentative-essay-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Self-verified Method for Exploring Simile Knowledge from Pre-trained Language Models</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2024-a-self-verified-method-for-exploring-simile-knowledge-from-pre-trained-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2024-a-self-verified-method-for-exploring-simile-knowledge-from-pre-trained-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2024-a-self-verified-method-for-exploring-simile-knowledge-from-pre-trained-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unraveling and Mitigating Retriever Inconsistencies in Retrieval-Augmented Large Language Models </title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2024-unraveling-and-mitigting-retriever-inconsistencies-in-retrieval-augmented-large-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2024-unraveling-and-mitigting-retriever-inconsistencies-in-retrieval-augmented-large-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2024-unraveling-and-mitigting-retriever-inconsistencies-in-retrieval-augmented-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Conversational Recommender System and Large Language Model Are Made for Each Other in E-commerce Pre-sales Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-conversational-recommender-system-and-large-language-model-are-made-for-each-other-in-e-commerce-pre-sales-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-harnessing-the-power-of-large-language-models-for-empathetic-response-generation-empirical-investigations-and-improvements/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I run as fast as a rabbit, can you? A Multilingual Simile Dialogues Datasets</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-i-run-as-fast-as-a-rabbit-can-you-a-multilingual-simile-dialogues-datasets/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-i-run-as-fast-as-a-rabbit-can-you-a-multilingual-simile-dialogues-datasets/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-i-run-as-fast-as-a-rabbit-can-you-a-multilingual-simile-dialogues-datasets/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving Robustness of Intent Detection Under Adversarial Attacks: A Geometric Constraint Perspective</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-improving-robustness-of-intent-detection-under-adversarial-attacks-a-geometric-constraint-perspective/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MetricPrompt: Prompting Model as a Relevance Metric for Few-shot Text Classification</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Policy-driven Knowledge Selection and Response Generation for Document-grounded Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-policy-driven-knowledge-selection-and-response-generation-for-document-grounded-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Through the Lens of Core Competency: Survey on Evaluation of Large Language Models</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-through-the-lens-of-core-competency-survey-on-evaluation-of-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>U-NEED: A Fine-grained Dataset for User Needs-Centric E-commerce Conversational Recommendation</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2023-u-need-a-fine-grained-dataset-for-user-needs-centric-e-commerce-conversational-recommendation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Stack-Propagation Framework for Low-Resource Personalized Dialogue Generation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-a-stack-propagation-framework-for-low-resource-personalized-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-a-stack-propagation-framework-for-low-resource-personalized-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-a-stack-propagation-framework-for-low-resource-personalized-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Static and Dynamic Attention Framework for Multi Turn Dialogue Generation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-a-static-and-dynamic-attention-framework-for-multi-turn-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Building Dialogue Understanding Models for Low-resource Language Indonesian from Scratch</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-building-dialogue-understanding-models-for-low-resource-language-indonesian-from-scratch/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-building-dialogue-understanding-models-for-low-resource-language-indonesian-from-scratch/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-building-dialogue-understanding-models-for-low-resource-language-indonesian-from-scratch/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CLIP Models are Few-Shot Learners: Empirical Studies on VQA and Visual Entailment</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-clip-models-are-few-shot-learners-empirical-studies-on-vqa-and-visual-entailment/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-clip-models-are-few-shot-learners-empirical-studies-on-vqa-and-visual-entailment/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-clip-models-are-few-shot-learners-empirical-studies-on-vqa-and-visual-entailment/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SelF- Eval: Self-supervised Fine- grained Dialogue Evaluation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-self-eval-self-supervised-fine-grained-dialogue-evaluation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Visualizing attention zones in machine reading comprehension models</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2022-visualizing-attention-zones-in-machine-reading-comprehension-models/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2022-visualizing-attention-zones-in-machine-reading-comprehension-models/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2022-visualizing-attention-zones-in-machine-reading-comprehension-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BoB: BERT Over BERT for Training Persona-based Dialogue Models from Limited Personalized Data</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-bob-bert-over-bert-for-training-persona-based-dialogue-models-from-limited-personalized-data/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-bob-bert-over-bert-for-training-persona-based-dialogue-models-from-limited-personalized-data/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-bob-bert-over-bert-for-training-persona-based-dialogue-models-from-limited-personalized-data/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural Stylistic Response Generation with Disentangled Latent Variables</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-neural-stylistic-response-generation-with-disentangled-latent-variables/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unstructured Text Enhanced Open-domain Dialogue System: A Systematic Survey</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-unstructured-text-enhanced-open-domain-dialogue-system-a-systematic-survey/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What did you refer to? Evaluating Co-references in Dialogue</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2021-what-did-you-refer-to-evaluating-co-references-in-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2021-what-did-you-refer-to-evaluating-co-references-in-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2021-what-did-you-refer-to-evaluating-co-references-in-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Compare Aggregate Transformer for Understanding Document-grounded Dialogue</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-a-compare-aggregate-transformer-for-understanding-document-grounded-dialogue/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-a-compare-aggregate-transformer-for-understanding-document-grounded-dialogue/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-a-compare-aggregate-transformer-for-understanding-document-grounded-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Counterfactual Off-Policy Training for Neural Dialogue Generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-counterfactual-off-policy-training-for-neural-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Discriminative Sentence Modeling for Story Ending Prediction</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-generate-delete-and-rewrite-a-three-stage-framework-for-improving-persona-consistency-of-dialogue-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-generate-delete-and-rewrite-a-three-stage-framework-for-improving-persona-consistency-of-dialogue-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-generate-delete-and-rewrite-a-three-stage-framework-for-improving-persona-consistency-of-dialogue-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generating Persona Consistent Dialogues by Exploiting Natural Language Inference</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-generating-persona-consistent-dialogues-by-exploiting-natural-language-inference/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-generating-persona-consistent-dialogues-by-exploiting-natural-language-inference/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-generating-persona-consistent-dialogues-by-exploiting-natural-language-inference/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Keywords Generation Improves E-Commerce Session-based Recommendation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Proﬁle Consistency Identiﬁcation for Open-domain Dialogue Agents</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2020-profile-consistency-identification-for-open-domain-dialogue-agents/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2020-profile-consistency-identification-for-open-domain-dialogue-agents/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2020-profile-consistency-identification-for-open-domain-dialogue-agents/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Neural Approach for Verb Phrase Ellipsis Resolution</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-a-neural-approach-for-verb-phrase-ellipsis-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-a-neural-approach-for-verb-phrase-ellipsis-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-a-neural-approach-for-verb-phrase-ellipsis-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An Evaluation of Chinese Human-Computer Dialogue Technology</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Zero Pronoun Resolution: A Collaborative Filtering-based Approach</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-chinese-zero-pronoun-resolution-a-collaborative-filtering-based-approach/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-chinese-zero-pronoun-resolution-a-collaborative-filtering-based-approach/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-chinese-zero-pronoun-resolution-a-collaborative-filtering-based-approach/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploiting Persona Information for Diverse Generation of Conversational Responses</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-exploiting-persona-information-for-diverse-generation-of-conversational-responses/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-exploiting-persona-information-for-diverse-generation-of-conversational-responses/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-exploiting-persona-information-for-diverse-generation-of-conversational-responses/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Order-Sensitive Keywords Based Response Generation in Open-Domain Conversational Systems</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-order-sensitive-keywords-based-response-generation-in-open-domain-conversational-systems/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Retrieval-Enhanced Adversarial Training for Neural Response Generation</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-retrieval-enhanced-adversarial-training-for-neural-response-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>TripleNet: Triple Attention Network for Multi-Turn Response Selection in Retrieval-Based Chatbots</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2019-triplenet-triple-attention-network-for-multi-turn-response-selection-in-retrieval-based-chatbots/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2019-triplenet-triple-attention-network-for-multi-turn-response-selection-in-retrieval-based-chatbots/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2019-triplenet-triple-attention-network-for-multi-turn-response-selection-in-retrieval-based-chatbots/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Context-Sensitive Generation of Open-Domain Conversational Responses</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-context-sensitive-generation-of-open-domain-conversational-responses/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep Reinforcement Learning for Chinese Zero Pronoun Resolution</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-deep-reinforcement-learning-for-chinese-zero-pronoun-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring Implicit Feedback for Open Domain Conversation Generation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-exploring-implicit-feedback-for-open-domain-conversation-generation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-exploring-implicit-feedback-for-open-domain-conversation-generation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-exploring-implicit-feedback-for-open-domain-conversation-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural personalized response generation as domain adaptation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-neural-personalized-response-generation-as-domain-adaptation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Zero Pronoun Resolution with Attention-based Neural Network</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2018-zero-pronoun-resolution-with-attention-based-neural-network/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2018-zero-pronoun-resolution-with-attention-based-neural-network/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2018-zero-pronoun-resolution-with-attention-based-neural-network/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Deep Neural Network for Chinese Zero Pronoun Resolution</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-a-deep-neural-network-for-chinese-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-a-deep-neural-network-for-chinese-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-a-deep-neural-network-for-chinese-zero-pronoun-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Benben: A Chinese Intelligent Conversational Robot</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-benben-a-chinese-intelligent-conversational-robot/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Zero Pronoun Resolution with Deep Memory Network</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-chinese-zero-pronoun-resolution-with-deep-memory-network/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-generating-and-exploiting-large-scale-pseudo-training-data-for-zero-pronoun-resolution/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Neural Recovery Machine for Chinese Dropped Pronoun</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/"></content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,4150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://hit-scir-dt.github.io/page/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://hit-scir-dt.github.io/page/elasticlunr.min.js" defer></script>
+
+<script src="https://hit-scir-dt.github.io/page/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;>
+          <img src="https://hit-scir-dt.github.io/page/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;">首页</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/news">新闻</a> -->
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/projects">成果展示</a>
+        <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/publications">发表论文</a>
+        <!-- <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/resources">技术资源</a> -->
+	    <a class="navbar-item level-item has-text-centered a1" href="https://hit-scir-dt.github.io/page/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      教师
+    </p>
+    
+  </section>
+
+  
+
+
+<section class="section">
+  
+  <p class="title">
+    教师
+  </p>
+  
+
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="https:&#x2F;&#x2F;homepage.hit.edu.cn&#x2F;liuting?lang=zh">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;liuting.3848dff9ba3546dc.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">刘挺</p>
+            <p class="subtitle is-6"> 
+              哈工大党委常委、副校长，教授&#x2F;博导
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>人工智能、自然语言处理和社会计算</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="https:&#x2F;&#x2F;homepage.hit.edu.cn&#x2F;zhangweinan?lang=zh">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zhangweinan.e4db05c0d45ec3f2.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张伟男</p>
+            <p class="subtitle is-6"> 
+              教授&#x2F;博导（DT组组长）
+
+              
+              <br> &nbsp
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>自然语言处理、人机对话、社交机器人</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="https:&#x2F;&#x2F;homepage.hit.edu.cn&#x2F;liuyuanxing">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yxliu.bcbfa8f3c9ae639f.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">刘元兴</p>
+            <p class="subtitle is-6"> 
+              副研究员 
+
+               
+              
+              <br> &nbsp
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交机器人</b>
+                  
+                  <br>  &nbsp
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+  
+
+
+<section class="section">
+  
+  <p class="title">
+    在读博士生
+  </p>
+  
+
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2024&#x2F;1021&#x2F;c19599a356020&#x2F;page.htm">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jwhu2.43e9cd30e450e4b5.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">胡景雯</p>
+            <p class="subtitle is-6"> 
+              2020级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>对话暗示</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="ryxiao">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;ryxiao.610c6c5971475fdb.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">肖瑞宇</p>
+            <p class="subtitle is-6"> 
+              2021级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>对话式辩论</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="mdli">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;mdli.4715943a560de98d.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李明达</p>
+            <p class="subtitle is-6"> 
+              2021级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>大模型幻觉</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2024&#x2F;1021&#x2F;c19599a355993&#x2F;page.htm">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xswang.2fe2e59dcfa9910e.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">王雪松</p>
+            <p class="subtitle is-6"> 
+              2022级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="yhan">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yhan.387a6ea94c6af470.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">韩一</p>
+            <p class="subtitle is-6"> 
+              2022级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交机器人检测</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="lwu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hvQq.0d7ef48ceb5fcb34.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">吴磊</p>
+            <p class="subtitle is-6"> 
+              2024级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xhfeng.448ce3eb398f7f7f.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">冯旭晗</p>
+            <p class="subtitle is-6"> 
+              2024级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（联培）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="shchen">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bDAG.82533fc353c386e5.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">陈帅行</p>
+            <p class="subtitle is-6"> 
+              2024级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（联培）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;mzcai.dfd53c2ca718f5a3.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">蔡沐祯</p>
+            <p class="subtitle is-6"> 
+              2024级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（联培）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="mjwei">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bDBd.943e1adda8b47d6a.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">韦明杰</p>
+            <p class="subtitle is-6"> 
+              2025级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（联培）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="xywang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;aloM.db75c4c5a76fdba8.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">王昕毅</p>
+            <p class="subtitle is-6"> 
+              2025级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>持续学习（联培）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;cxsong.17fa6f42b2e08a3b.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">宋晨旭</p>
+            <p class="subtitle is-6"> 
+              2025级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>世界模型</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xxshi.d29bdca70b5cdb6c.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">石兴学</p>
+            <p class="subtitle is-6"> 
+              2025级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;kfliu.7e7520bd0a6271e3.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">刘凯锋</p>
+            <p class="subtitle is-6"> 
+              2025级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（联培）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;tgao.180c5e7fe1a65497.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">高婷</p>
+            <p class="subtitle is-6"> 
+              2025级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="yfchen">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;aloT.ccdcfd9b034810f2.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">陈一帆</p>
+            <p class="subtitle is-6"> 
+              2025级博士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身大模型</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+  
+
+
+<section class="section">
+  
+  <p class="title">
+    在读硕士生
+  </p>
+  
+
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="shzhou">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;aloO.59bc95b08c9012ae.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">周姝含</p>
+            <p class="subtitle is-6"> 
+              2023级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>智能体检测</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="yczhang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;aloP.4ac3e2ae737742b5.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张宇驰</p>
+            <p class="subtitle is-6"> 
+              2023级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>多模态大模型</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="xyli">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;aloR.d5750e0d31b2a3a0.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李昕羽</p>
+            <p class="subtitle is-6"> 
+              2023级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>检索增强</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="dldi">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bDC0.412b2c01620932d7.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">狄东林</p>
+            <p class="subtitle is-6"> 
+              2023级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>多模态生成</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="zxchen">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bDzj.e510848a6fc8c95e.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">陈泽鑫</p>
+            <p class="subtitle is-6"> 
+              2023级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>传播建模分析</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="jzwang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bDAF.8cb6c80f8d6617e2.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">王寄哲</p>
+            <p class="subtitle is-6"> 
+              2024级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xtian.2447e0c69dbc047a.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">田翔</p>
+            <p class="subtitle is-6"> 
+              2024级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（苏研院）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="crsun">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hvQn.4c8858f054338370.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">孙楚芮</p>
+            <p class="subtitle is-6"> 
+              2024级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="hsong">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bDC2.f4332f4656d91cb0.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">宋浩</p>
+            <p class="subtitle is-6"> 
+              2024级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="sqliang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hvQo.f9899912f86678c3.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">梁师齐</p>
+            <p class="subtitle is-6"> 
+              2024级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="xgao">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xgao.fb9bd88c376da1b4.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">高幸</p>
+            <p class="subtitle is-6"> 
+              2024级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交关系建模</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="hxfeng">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bDBc.56ddf4267610da93.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">冯怀绪</p>
+            <p class="subtitle is-6"> 
+              2024级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;ztzhang.daea04765d9774f9.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张泽同</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jnyu.2e351172370645c5.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">于佳宁</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;lwxiao.33a1a58d47e6bef3.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">肖良望</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（苏研院）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;ytwang.c1d983fe67f58905.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">王永泰</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（苏研院）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;szwang.e8c3bd9f7b627a1b.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">王世泽</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jqshi.d22d408c2f02cdf9.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">史晋绮</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能（苏研院）</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;whan.6009592eb46eb925.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">韩为</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;cxduan.3af8bc37ac2ddde3.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">段传喜</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xychen.384118191e2ecfd2.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">陈欣怡</p>
+            <p class="subtitle is-6"> 
+              2025级硕士生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+  
+
+
+<section class="section">
+  
+  <p class="title">
+    在读本科生
+  </p>
+  
+
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hyzheng.42c16a1a58f589a3.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">郑浩宇</p>
+            <p class="subtitle is-6"> 
+              2021级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zwsu.b95aed72eac15f3d.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">苏智武</p>
+            <p class="subtitle is-6"> 
+              2022级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;syqiao.c5fdffed75fb71f4.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">乔思远</p>
+            <p class="subtitle is-6"> 
+              2022级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;rdlv.c58be819e76ee94f.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">吕润东</p>
+            <p class="subtitle is-6"> 
+              2022级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hqlu.6034cbf631c54798.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">卢海琪</p>
+            <p class="subtitle is-6"> 
+              2022级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zheh.02b92b1bbe15ca27.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">韩喆</p>
+            <p class="subtitle is-6"> 
+              2022级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hmgu.2e70f6c676ed3534.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">谷浩铭</p>
+            <p class="subtitle is-6"> 
+              2022级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;sx.07363a1b5111a421.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">酆铄</p>
+            <p class="subtitle is-6"> 
+              2022级本科生
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+  
+
+
+<section class="section">
+  
+  <p class="title">
+    实习生
+  </p>
+  
+
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;qyxu.96495e57b198f036.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">徐勤玉</p>
+            <p class="subtitle is-6"> 
+              2022级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;wxwang.3ab792d731a506e1.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">汪文轩</p>
+            <p class="subtitle is-6"> 
+              2022级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yftian.d025fff1593a22e5.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">田宇丰</p>
+            <p class="subtitle is-6"> 
+              2022级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jxlu.a3cfa39aec4b34d2.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">卢景行</p>
+            <p class="subtitle is-6"> 
+              2022级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xlli.1900d479e171a329.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李晓龙</p>
+            <p class="subtitle is-6"> 
+              2022级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;ydong.4c4d0db428037c25.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">董一燊</p>
+            <p class="subtitle is-6"> 
+              2022级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;kzhang.33ca294380518442.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张可</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jqzhang.37c140fab7a85d15.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张佳琪</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bmzhang.1b4b9913e426eef1.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张柏淼</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;cyuan.4abe5bfea1401b3c.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">袁骋</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yqyang.88777f072eb2103e.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">杨亚桥</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+              <p class="subtitle is-6"><b>&nbsp</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;cfxv.035dedcfe4029698.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">徐晨飞</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;ruw.01e0a3d224ea93de.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">蔚儒</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bwtang.1b60db260786c76f.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">汤博文</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;gdlv.5fd5f7454117c48c.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">吕国栋</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yliu.9b75cdd62ddcb68e.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">刘烨</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;whli.d2d4c279458e59a4.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李玮航</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;cguan.36ceae9a03f02106.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李冠成</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yfhe.f28c46f31a16de6a.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">何一飞</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>具身智能</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;wxchen.307348eff5d059d3.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">陈婉心</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jybai.abd9ddd392862b64.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">白晶怡</p>
+            <p class="subtitle is-6"> 
+              2023级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;qywu.2f9708603416aa84.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">武庆阳</p>
+            <p class="subtitle is-6"> 
+              2024级实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>社交媒体智能体</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+  
+
+
+<section class="section">
+  
+  <p class="title">
+    毕业生
+  </p>
+  
+
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="zye">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zye.cc72ce925be0b3ca.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">叶哲</p>
+            <p class="subtitle is-6"> 
+              2016届学士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>上海交通大学</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="ymdu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;ymdu.fc9024bef6664f21.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">杜雨萌</p>
+            <p class="subtitle is-6"> 
+              2016届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>北京腾讯</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="sqiu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;sqiu.a7a429e00bef17f5.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">裘实</p>
+            <p class="subtitle is-6"> 
+              2017届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>深圳腾讯</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="dycao">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;dycao.d6a252196a1a619c.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">曹东岩</p>
+            <p class="subtitle is-6"> 
+              2017届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>南京中兴</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="yzzhang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yzzhang.47cf05648c0fcdd1.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张杨子</p>
+            <p class="subtitle is-6"> 
+              2018届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>海航研究院</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="yfwang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yfwang.4e0028b8f0b3b461.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">汪意发</p>
+            <p class="subtitle is-6"> 
+              2018届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>科大讯飞</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="zqzhu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zqzhu.d3a8aeedf4c25ffa.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">朱泽圻</p>
+            <p class="subtitle is-6"> 
+              2019届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>南京华为</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="lzli">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;lzli.7f95cb4b4f09769b.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李凌志</p>
+            <p class="subtitle is-6"> 
+              2019届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>深圳腾讯</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="zyzhao">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zyzhao.6a53cb6fd7313742.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">赵正宇</p>
+            <p class="subtitle is-6"> 
+              2020届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>深圳腾讯</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="rxsum">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;rxsun.25209ef172cce42b.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">孙润鑫</p>
+            <p class="subtitle is-6"> 
+              2020届学士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>中科院自动化</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;liyang.f0817c166efdc0dc.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李洋</p>
+            <p class="subtitle is-6"> 
+              2020届博士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>东北林业大学</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="qfzhu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;qfzhu.24a9855df4ac3a7b.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">朱庆福</p>
+            <p class="subtitle is-6"> 
+              2021届博士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>哈尔滨工业大学</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="chzhu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;chzhu.7d43a1169a8b5e1d.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">朱才海</p>
+            <p class="subtitle is-6"> 
+              2021届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>深圳腾讯</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="zxfeng">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zxfeng.6ee1ca1ce0c0f041.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">冯梓娴</p>
+            <p class="subtitle is-6"> 
+              2021届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>公务员</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="kyzhang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;kyzhang2.bca0a6f79ba0aec0.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张开颜</p>
+            <p class="subtitle is-6"> 
+              2022届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>清华大学</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="jlzhang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jlzhang2.ccc712f862a9d997.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">张家乐</p>
+            <p class="subtitle is-6"> 
+              2022届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>深圳腾讯</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="zyzhuang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zyzhuang.3726f8441958fe6c.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">庄子彧</p>
+            <p class="subtitle is-6"> 
+              2023届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>上海携程</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="hwang">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hwang.0d805d171d1be73d.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">王航</p>
+            <p class="subtitle is-6"> 
+              2023届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>比亚迪深圳</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="hysong">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hysong.8cfd60ede692bfe8.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">宋皓宇</p>
+            <p class="subtitle is-6"> 
+              2023届博士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>北京华为（天才少年）</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="jpli">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jpli.0a15ef5145d6b460.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李佳朋</p>
+            <p class="subtitle is-6"> 
+              2023届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>深圳腾讯</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="jqdu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jqdu.07c8acfa2756a7b1.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">杜佳琪</p>
+            <p class="subtitle is-6"> 
+              2023届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>黑龙江省法院</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="bqqi">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bqqi.24eb4dcbb1cc3257.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">齐弼卿</p>
+            <p class="subtitle is-6"> 
+              2024届博士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>上海人工智能实验室</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="lxma">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;lxma1.c9f37a0b78a34d77.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">马龙轩</p>
+            <p class="subtitle is-6"> 
+              2024届博士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>昆明理工大学</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2024&#x2F;1021&#x2F;c19599a356025&#x2F;page.htm">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yxliu.bcbfa8f3c9ae639f.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">刘元兴</p>
+            <p class="subtitle is-6"> 
+              2025届博士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>哈尔滨工业大学</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="rzliu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;rzliu.7accbd3cd1b68888.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">刘润泽</p>
+            <p class="subtitle is-6"> 
+              2025届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>上海华为</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="yhgou">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yhgou.4651bac2728b4d66.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">勾宇航</p>
+            <p class="subtitle is-6"> 
+              2025届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>北京美团</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="hpbai">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;hpbai.adf5a56cc2432d68.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">白昊鹏</p>
+            <p class="subtitle is-6"> 
+              2025届硕士
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6"><b>广州南方电网</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+  
+
+
+<section class="section">
+  
+  <p class="title">
+    往届实习生
+  </p>
+  
+
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="hcxiong">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;chxiong.4b1fda2591fe0444.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">熊聪豪</p>
+            <p class="subtitle is-6"> 
+              2021届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>香港中文大学</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="atlv">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;atlv.20909c101b2b03c5.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">吕岸桐</p>
+            <p class="subtitle is-6"> 
+              2021届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>谷歌中国</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="thliu">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;thliu.6ba8ffbfc4a7adae.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">刘天慧</p>
+            <p class="subtitle is-6"> 
+              2021届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>滑铁卢大学</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="federico">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;aloQ.78e4113610e03aa8.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">Federico Toschi</p>
+            <p class="subtitle is-6"> 
+              2023届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+                <p class="subtitle is-6">
+                  <b>米兰理工大学</b>
+                   
+                </p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;jtqiu.6ffab9ec04ea7e99.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">邱锦桐</p>
+            <p class="subtitle is-6"> 
+              2025届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+              <p class="subtitle is-6"><b>&nbsp</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="columns">
+    
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;bzli.30273cc4aec20323.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">李滨竹</p>
+            <p class="subtitle is-6"> 
+              2025届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+              <p class="subtitle is-6"><b>&nbsp</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;yfhou.7fd50d3f1ec51a01.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">侯雨菲</p>
+            <p class="subtitle is-6"> 
+              2025届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+              <p class="subtitle is-6"><b>&nbsp</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zjhong.38c0425e439c045b.jpg" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">洪子健</p>
+            <p class="subtitle is-6"> 
+              2025届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+              <p class="subtitle is-6"><b>&nbsp</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;xyhan.dd65547ca11c5c0f.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">韩欣洋</p>
+            <p class="subtitle is-6"> 
+              2025届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+              <p class="subtitle is-6"><b>&nbsp</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    <div class="column is-one-fifth">
+      <div class="card">
+        <div>
+          <figure class="image">
+            <!--  个人主页  -->
+            <a href="">
+              
+              <img width="300" src="https:&#x2F;&#x2F;hit-scir-dt.github.io&#x2F;page&#x2F;processed_images&#x2F;zrshen.b27c795af64f1aa7.png" alt="Placeholder image">
+            </a>
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">沈正冉</p>
+            <p class="subtitle is-6"> 
+              2025届实习
+               
+               
+            </p>
+
+            <p class="subtitle is-6"></p>
+            
+              
+              <p class="subtitle is-6"><b>&nbsp</b></p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</section>
+
+  
+
+</div>
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

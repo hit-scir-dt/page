@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Frontiers of Computer Science</title>
+    <link rel="self" type="application/atom+xml" href="https://hit-scir-dt.github.io/page/publisher/frontiers-of-computer-science/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2017-01-01T00:00:00+00:00</updated>
+    <id>https://hit-scir-dt.github.io/page/publisher/frontiers-of-computer-science/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Neural Recovery Machine for Chinese Dropped Pronoun</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/"/>
+        <id>https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/</id>
+        
+        <content type="html" xml:base="https://hit-scir-dt.github.io/page/publications/2017-neural-recovery-machine-for-chinese-dropped-pronoun/"></content>
+        
+    </entry>
+</feed>
